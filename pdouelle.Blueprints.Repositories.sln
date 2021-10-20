@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pdouelle.Blueprints.Repositories", "pdouelle.Blueprints.Repositories\pdouelle.Blueprints.Repositories.csproj", "{F51E57A1-B71F-41E8-B539-35AEEA2B3124}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pdouelle.Blueprints.Repositories.Debug", "pdouelle.Blueprints.Repositories.Debug\pdouelle.Blueprints.Repositories.Debug.csproj", "{1922D033-91D8-4911-9D92-02BF7642C642}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{F51E57A1-B71F-41E8-B539-35AEEA2B3124}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F51E57A1-B71F-41E8-B539-35AEEA2B3124}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F51E57A1-B71F-41E8-B539-35AEEA2B3124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1922D033-91D8-4911-9D92-02BF7642C642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1922D033-91D8-4911-9D92-02BF7642C642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1922D033-91D8-4911-9D92-02BF7642C642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1922D033-91D8-4911-9D92-02BF7642C642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
