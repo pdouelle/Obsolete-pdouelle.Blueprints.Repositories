@@ -69,7 +69,7 @@ namespace pdouelle.Blueprints.Repositories
         {
             Guard.Against.NullOrEmpty(entities, nameof(entities));
 
-            _context.Set<TEntity>().RemoveRange(entities);
+            _context.RemoveRange(entities);
         }
         
         public async Task<bool> SaveAsync(CancellationToken cancellationToken) =>
